@@ -1,0 +1,159 @@
+header {
+  color: var(--color10);
+  background-color: var(--color01);
+  user-select: none;
+}
+
+.header-wrapper {
+  height: 480px;
+  max-width: 1280px;
+  flex-flow: column;
+  margin: auto;
+  background-position: left 25% bottom 0;
+  background-repeat: no-repeat;
+  background-image: url(/images/explore_b.png);
+}
+
+nav {
+  height: 96px;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.nav-logo {
+  padding: 0 0 0 1rem;
+  flex-flow: unset;
+  height: 96px;
+}
+
+.nav-logo > img {
+  width: 80px;
+}
+
+.nav-logo > ul {
+  padding: 0 1rem;
+  color: var(--color10);
+  flex-flow: column;
+  justify-content: center;
+}
+
+/* HAMBURGER MENU */
+input[type="checkbox"] {
+  display: none;
+}
+
+#checkbox-menu:checked ~ .nav-menu,
+:checked ~ .nav-submenu-list,
+:checked ~ .nav-search {
+  display: flex;
+}
+
+#checkbox-menu:checked ~ .nav-menu-label {
+  background-image: url(/images/icons/close.svg);
+}
+
+.nav-menu-label {
+  padding: 0 1rem;
+  height: 96px;
+  width: 2rem;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/images/icons/bar.svg);
+  background-size: 2rem;
+}
+
+.nav-menu,
+.nav-submenu-list,
+.nav-search {
+  z-index: 1;
+  display: none;
+  flex-flow: column;
+  width: 100%;
+  background-color: var(--color02);
+}
+
+.nav-menu {
+  order: 2;
+}
+
+/* NAV INFO */
+.menu-title {
+  justify-content: center;
+  flex-flow: column;
+  height: 100%;
+}
+
+.breadcrumbs {
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+h1 {
+  flex: 1;
+  flex-flow: column;
+  justify-content: flex-end;
+  padding: 0 1rem;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+.nav-cta > a {
+  height: 64px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: var(--color10);
+  background-color: var(--color04);
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    flex-flow: unset;
+  }
+  /* HAMBURGER MENU */
+  .nav-menu-label {
+    display: none;
+  }
+  .nav-menu {
+    order: 0;
+    z-index: 2;
+    display: flex;
+    flex-flow: unset;
+    width: unset;
+    background-color: unset;
+  }
+
+  .nav-submenu {
+    flex-flow: column;
+  }
+
+  .nav-search {
+    z-index: 0;
+    display: flex;
+    flex-flow: unset;
+    width: unset;
+    background-color: unset;
+    width: 234px;
+    align-items: center;
+    padding: 0 1rem 0 0;
+  }
+
+  .nav-menu > a {
+    padding: 1rem;
+  }
+
+  .nav-search > input {
+    width: 100%;
+    padding: 0.5rem 0;
+  }
+
+  /* NAV INFO*/
+  .nav-cta {
+    justify-content: flex-end;
+    padding: 0 1rem;
+  }
+  .nav-cta > a {
+    width: 300px;
+  }
+}

@@ -1,0 +1,75 @@
+@import url("https://use.typekit.net/iya4bcx.css");
+
+:root {
+  --color01: #232326;
+  --color02: #5e5e66;
+  --color03: #e1e1e6;
+  --color04: #e6a750;
+  --color05: #060626;
+  --color06: #33271e;
+  --color07: #3d4b66;
+  --color08: #2c0a33;
+  --color09: #264026;
+  --color10: #ffffff;
+
+  --font01: semplicitapro, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font01);
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav,
+div,
+ul,
+a,
+h1,
+label {
+  display: flex;
+}
+
+/* Typography */
+h1,
+.font-h1 {
+  font-weight: 700;
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+}
+h2,
+.font-h2 {
+  font-weight: 700;
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+}
+h3,
+.font-h3 {
+  font-weight: 400;
+  font-size: 1.875rem;
+}
+
+h4,
+.font-h4 {
+  font-weight: 400;
+  font-size: 1.5625rem;
+  /*line-height: 1.25rem;
+   line-height: 2.1875rem;*/
+}
+
+/* Border helpers */
+/*nav,
+div,
+span,
+ul,
+li,
+a,
+h2,
+label,
+img,
+p {
+  padding: 0px;
+  box-shadow: inset 0px 0px 0px 1px rgb(0, 0, 0);
+}
