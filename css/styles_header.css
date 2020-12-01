@@ -9,9 +9,9 @@ header > div {
   max-width: 1280px;
   margin: auto;
   flex-direction: column;
-  background-position: center;
   background-repeat: no-repeat;
-  background-image: url(/images/explore_b.png);
+  background-size: cover;
+  background-image: url(/images/explore_s.png);
 }
 
 nav {
@@ -54,6 +54,14 @@ input[type="checkbox"] {
 .submenu01,
 .submenu02 {
   flex-direction: column;
+}
+
+.search > input {
+  border: 0;
+  padding: 0 1rem;
+  background-repeat: no-repeat;
+  background-image: url(/images/icons/search.svg);
+  background-size: 1.75rem;
 }
 
 /* NAV INFO */
@@ -125,6 +133,14 @@ h1 {
     background-color: var(--color02);
   }
 
+  .submenu-hover {
+    display: none;
+  }
+
+  .submenu-list {
+    background-color: var(--color01);
+  }
+
   .menu-list,
   .submenu-list,
   .search {
@@ -145,24 +161,11 @@ h1 {
     border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
   }
 
-  .submenu-hover {
-    display: none;
-  }
-  .submenu-list > a {
-    background-color: var(--color01);
-  }
-
   .search > input {
     color: var(--color01);
-    border: 0;
-    padding: 0 1rem;
     height: 64px;
-    user-select: unset;
-    background: var(--color03);
-    background-repeat: no-repeat;
+    background-color: var(--color03);
     background-position: top 50% right 1rem;
-    background-image: url(/images/icons/search.svg);
-    background-size: 2rem;
   }
 
   .search > input::placeholder {
@@ -176,6 +179,10 @@ h1 {
 }
 
 @media only screen and (min-width: 1024px) {
+  header > div {
+    background-position: center;
+  }
+
   .menu-toggle {
     display: none;
   }
@@ -232,15 +239,10 @@ h1 {
 
   .search > input {
     box-sizing: border-box;
-    border: 0;
-    padding: 0 1rem;
-    width: 100%;
     color: var(--color10);
-    background: var(--color01);
-    background-repeat: no-repeat;
+    width: 100%;
+    background-color: var(--color01);
     background-position: top 50% right 0.25rem;
-    background-image: url(/images/icons/search.svg);
-    background-size: 1.75rem;
     box-shadow: 0 0 0 1px inset rgba(255, 255, 255, 0.05);
   }
 
