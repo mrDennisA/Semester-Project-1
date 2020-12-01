@@ -77,6 +77,11 @@ input[type="checkbox"] {
   padding: 1rem;
 }
 
+ul.breadcrumbs li + li:before {
+  padding: 0.25rem;
+  content: "/";
+}
+
 h1 {
   color: var(--color10);
   flex: 1;
