@@ -1,5 +1,4 @@
 header {
-  background-color: var(--color01);
   user-select: none;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 }
@@ -13,44 +12,73 @@ header > div {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.header-index {
+.color-index {
+  background-color: var(--color01);
+}
+.bg-index {
   background-image: url(/images/index.png);
 }
 
-.header-explore {
+.color-explore {
+  background-color: var(--color01);
+}
+.bg-explore {
   background-image: url(/images/explore.png);
 }
 
-.header-cosmology {
+.color-cosmology {
+  background-color: var(--color05);
+}
+.bg-cosmology {
   background-image: url(/images/cosmology.png);
 }
 
-.header-evolution {
+.color-evolution {
+  background-color: var(--color06);
+}
+.bg-evolution {
   background-image: url(/images/evolution.png);
 }
 
-.header-biology {
-  background-image: url(/images/biology.png);
+.color-biology {
+  background-color: var(--color07);
+}
+.bg-biology {
+  background-image: url(/images/biology-medicine.png);
 }
 
-.header-robotics {
-  background-image: url(/images/robotics.png);
+.color-robotics {
+  background-color: var(--color08);
+}
+.bg-robotics {
+  background-image: url(/images/robotics-ai.png);
 }
 
-.header-evolution {
-  background-image: url(/images/evolution.png);
+.color-ecology {
+  background-color: var(--color09);
+}
+.bg-ecology {
+  background-image: url(/images/ecology.png);
 }
 
-.header-events {
+.color-events {
+  background-color: var(--color01);
+}
+.bg-events {
   background-image: url(/images/events.png);
 }
 
-.header-visit {
+.color-visit {
+  background-color: var(--color01);
+}
+.bg-visit {
   background-image: url(/images/visit.png);
 }
 
-.header-support {
+.color-support {
+  background-color: var(--color01);
+}
+.bg-support {
   background-image: url(/images/support.png);
 }
 
@@ -67,15 +95,15 @@ nav {
   padding: 0 0 0 1rem;
 }
 
-.nav-logo > img {
+.nav-logo a > img {
   width: 80px;
 }
 
-.nav-logo > ul {
+.nav-logo a > ul {
   padding: 0 1rem;
   color: var(--color10);
   line-height: 1.25rem;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -107,27 +135,16 @@ input[type="checkbox"] {
 /* NAV INFO */
 .menu-title {
   justify-content: center;
-  flex-flow: column;
+  flex-direction: column;
   height: 100%;
-}
-
-.breadcrumbs {
-  color: var(--color10);
-  justify-content: flex-end;
-  padding: 1rem;
-}
-
-ul.breadcrumbs li + li:before {
-  padding: 0.25rem;
-  content: "/";
 }
 
 h1 {
   color: var(--color10);
   flex: 1;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: flex-end;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
 }
 
 .nav-cta > a {
@@ -190,7 +207,7 @@ h1 {
   .search {
     z-index: 1;
     display: none;
-    flex-flow: column;
+    flex-direction: column;
     width: 100%;
   }
 
@@ -260,6 +277,8 @@ h1 {
   .submenu01:hover > .submenu-list,
   .submenu02:hover > .submenu-list {
     display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25) inset;
+    border-top: 1px rgba(255, 255, 255, 0.25) solid;
   }
 
   .submenu-list {
@@ -285,7 +304,7 @@ h1 {
     box-sizing: border-box;
     color: var(--color10);
     width: 100%;
-    background-color: var(--color01);
+    background-color: rgba(255, 255, 255, 0.05);
     background-position: top 50% right 0.25rem;
     box-shadow: 0 0 0 1px inset rgba(255, 255, 255, 0.05);
   }
