@@ -28,7 +28,8 @@ div,
 ul,
 a,
 h1,
-label {
+label,
+p {
   display: flex;
 }
 
@@ -57,6 +58,18 @@ h4,
   font-size: 1.5625rem;
   /*line-height: 1.25rem;
    line-height: 2.1875rem;*/
+}
+h5,
+.font-h5 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+h6,
+.font-h6 {
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
 }
 
 /* Border helpers */

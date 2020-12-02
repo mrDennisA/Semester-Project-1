@@ -1,0 +1,122 @@
+footer {
+  background-color: var(--color02);
+}
+
+footer > div {
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: auto;
+  flex-direction: column;
+
+  padding: 1rem 0rem 4rem;
+  color: var(--color10);
+  background-color: var(--color02);
+}
+
+footer a,
+footer li,
+footer input {
+  color: var(--color10);
+}
+
+footer a:hover {
+  color: var(--color04);
+  text-decoration: underline;
+}
+
+/* EMAIL */
+.footer-email {
+  height: 48px;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.footer-email > div {
+  width: 450px;
+}
+
+.footer-email div > input {
+  border: 0;
+  width: 70%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 0px 1px rgba(255, 255, 255, 0.25) inset;
+}
+
+.footer-email div > p {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color04);
+  cursor: pointer;
+  user-select: none;
+}
+
+.footer-email div > p:hover {
+  transition: 0.5s;
+  color: var(--color04);
+  text-shadow: unset;
+  background-color: var(--color10);
+}
+
+/* INFO */
+.footer-info {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-location,
+.footer-time,
+.footer-links,
+.footer-social {
+  box-sizing: border-box;
+  width: 300px;
+  padding: 0 0.5rem;
+  flex-direction: column;
+}
+
+.footer-location > ul,
+.footer-time > ul,
+.footer-links > ul,
+.footer-social > ul {
+  padding: 1rem 1rem 2rem;
+  flex-direction: column;
+  border-top: 1px rgba(230, 167, 80, 0.5) solid;
+}
+
+.footer-time div,
+.footer-social ul > ul {
+  flex-direction: column;
+}
+
+.footer-time ul {
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1023.9px) {
+  footer > div {
+    justify-content: center;
+  }
+
+  /* INFO */
+  .footer-info {
+    align-items: center;
+    flex-wrap: unset;
+    flex-direction: column;
+  }
+
+  .footer-info > div {
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .footer-location,
+  .footer-time,
+  .footer-links,
+  .footer-social {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
