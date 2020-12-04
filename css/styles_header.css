@@ -135,6 +135,11 @@ input[type="checkbox"] {
   background-size: 1.75rem;
 }
 
+.search > input:focus {
+  outline-color: var(--color02);
+  outline-style: solid;
+}
+
 /* NAV INFO */
 .menu-title {
   justify-content: center;
