@@ -111,6 +111,10 @@ input[type="checkbox"] {
   display: none;
 }
 
+.menu-list {
+  line-height: 1.75rem;
+}
+
 .menu-list > a:hover,
 .submenu-list > a:hover,
 .submenu-toggle:hover,

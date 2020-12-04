@@ -11,6 +11,7 @@
   --color08: #2c0a33;
   --color09: #264026;
   --color10: #ffffff;
+  --color11: #cc5252;
 
   --font01: semplicitapro, sans-serif;
 }
@@ -37,14 +38,14 @@ p {
 h1,
 .font-h1 {
   font-weight: 700;
-  font-size: 3.125rem;
-  line-height: 3.75rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
 }
 h2,
 .font-h2 {
   font-weight: 700;
-  font-size: 3.125rem;
-  line-height: 3.75rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 h3,
 .font-h3 {
@@ -55,21 +56,19 @@ h3,
 h4,
 .font-h4 {
   font-weight: 400;
-  font-size: 1.5625rem;
-  /*line-height: 1.25rem;
-   line-height: 2.1875rem;*/
+  font-size: 1.5rem;
 }
 h5,
 .font-h5 {
   font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.875rem;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
 }
 h6,
 .font-h6 {
   font-weight: 400;
-  font-size: 0.9375rem;
-  line-height: 1.5625rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 /* Border helpers */
