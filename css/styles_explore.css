@@ -1,0 +1,111 @@
+.grid-explore01 {
+  border-bottom: 1px var(--color04) solid;
+}
+.explore01 {
+  flex-direction: column;
+}
+.explore02 {
+  background-image: url("/images/explore/michal-parzuchowski_01.jpg");
+}
+.explore03 {
+  background-image: url("/images/explore/pikwizard_02.jpg");
+}
+.explore05 {
+  max-height: 200px;
+  background-image: url("/images/explore/mammoth_01.jpg");
+}
+.explore06 {
+  max-height: 200px;
+  background-image: url("/images/explore/stem_01.jpg");
+}
+div.explore09 {
+  min-width: 410px;
+}
+.explore11 {
+  max-height: 200px;
+  background-image: url("/images/explore/pexels-artem-podrez_01.jpg");
+}
+.explore12 {
+  max-height: 200px;
+  background-image: url("/images/explore/kids_microscope_01.jpg");
+}
+div.explore14 {
+  min-width: 410px;
+}
+.explore16 {
+  max-height: 200px;
+  background-image: url("/images/explore/science_01.jpg");
+}
+@media only screen and (min-width: 1024px) {
+  .grid-explore01 {
+    grid-template-areas:
+      "itm01 . . ."
+      "itm02 itm03 itm04 ."
+      "itm05 itm05 itm06 itm06"
+      ". itm07 . itm08";
+  }
+  .grid-explore02 {
+    grid-template-areas:
+      "itm09 . . ."
+      "itm10 itm11 itm11 itm11"
+      "itm12 itm12 itm12 itm13";
+  }
+  .grid-explore03 {
+    grid-template-areas:
+      "itm14 . . ."
+      "itm15 itm16 itm16 itm16";
+  }
+  .explore01 {
+    grid-area: itm01;
+  }
+  .explore02 {
+    grid-area: itm02;
+  }
+  .explore03 {
+    grid-area: itm03;
+  }
+  .explore04 {
+    grid-area: itm04;
+  }
+  .explore05 {
+    max-height: 300px;
+    grid-area: itm05;
+  }
+  .explore06 {
+    max-height: 300px;
+    grid-area: itm06;
+  }
+  .explore07 {
+    flex-direction: column;
+    grid-area: itm07;
+  }
+  .explore08 {
+    grid-area: itm08;
+  }
+  .explore09 {
+    grid-area: itm09;
+  }
+  .explore10 {
+    grid-area: itm10;
+  }
+  .explore11 {
+    max-height: 300px;
+    grid-area: itm11;
+  }
+  .explore12 {
+    max-height: 300px;
+    grid-area: itm12;
+  }
+  .explore13 {
+    grid-area: itm13;
+  }
+  .explore14 {
+    grid-area: itm14;
+  }
+  .explore15 {
+    grid-area: itm15;
+  }
+  .explore16 {
+    grid-area: itm16;
+  }
+}

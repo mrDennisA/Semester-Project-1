@@ -169,7 +169,7 @@ h1 {
   transition: 0.5s;
   color: var(--color04);
   text-shadow: unset;
-  background-color: var(--color10);
+  background-color: rgba(252, 246, 237, 1);
   box-shadow: 0 -1px 0 var(--color04) inset;
 }
 

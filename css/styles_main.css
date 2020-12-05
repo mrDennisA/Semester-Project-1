@@ -3,27 +3,13 @@ main > div {
   flex-direction: column;
   margin: auto;
   max-width: 648px;
+  padding: 4rem 0 4rem;
 }
-
-/* TITLE INDEX  */
-.title-index {
-  align-items: center;
-  flex-direction: column;
-  padding: 4rem 1rem;
-}
-.title-index > h2 {
-  padding: 1rem;
-}
-.title-index > p {
-  max-width: 480px;
-}
-
-/* TEST GRID */
 .flex {
-  margin: 0.5rem 0.5rem 4rem;
+  padding: 1.5rem 0 1.5rem;
+  margin: 0 0.5rem;
   flex-wrap: wrap;
 }
-
 .flex div {
   margin: 0.5rem;
   flex: 1;
@@ -31,65 +17,22 @@ main > div {
   width: 100%;
   flex-wrap: wrap;
 }
-
 .img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 40vmin;
+  height: 42.5vmin;
   max-height: 300px;
   box-shadow: 0 2px 04px rgba(0, 0, 0, 0.25);
 }
-
-.index01 {
-  background-image: url("/images/index/skeleton_01.jpg");
-}
-.index03 {
-  background-image: url("/images/index/andrew-ruiz_01.jpg");
-}
-.index04 {
-  background-image: url("/images/index/pikwizard_01.png");
-}
-.index06 {
-  background-image: url("/images/index/insung-yoon_01.png");
-}
-.index07 {
-  background-image: url("/images/index/pexels-scott_01.jpg");
-}
-.index08 {
-  flex-direction: column;
-}
-
-/* CTA INDEX */
-.index09 > a {
-  color: var(--color10);
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 64px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--color11);
-  cursor: pointer;
-  user-select: none;
-}
-.index09 li > a:hover {
-  transition: 0.5s;
-  color: var(--color11);
-  text-shadow: unset;
-  background-color: var(--color10);
-  box-shadow: 0 0 0 1px var(--color11) inset;
-}
-
 @media only screen and (min-width: 1024px) {
   main > div {
     max-width: 1280px;
   }
-
   .flex {
     margin: unset;
     flex-wrap: unset;
   }
-
   .flex div {
     margin: unset;
     flex: unset;
@@ -97,50 +40,11 @@ main > div {
     width: unset;
     flex-wrap: unset;
   }
-
   div[class^="grid"] {
     display: grid;
     align-items: flex-start;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
-    padding: 1rem 1rem 8rem 1rem;
-  }
-  .grid-index {
-    grid-template-areas:
-      "itm01 itm02 itm03 itm03"
-      "itm04 itm04 itm05 itm06"
-      "itm07 itm07 itm07 itm08"
-      "itm07 itm07 itm07 itm09";
-  }
-  .index01 {
-    grid-area: itm01;
-  }
-  .index02 {
-    grid-area: itm02;
-  }
-  .index03 {
-    grid-area: itm03;
-  }
-  .index04 {
-    grid-area: itm04;
-  }
-  .index05 {
-    grid-area: itm05;
-  }
-  .index06 {
-    grid-area: itm06;
-  }
-  .index07 {
-    max-height: 616px;
-    grid-area: itm07;
-  }
-  .index08 {
-    grid-area: itm08;
-  }
-  .index09 {
-    display: flex;
-    align-items: flex-end;
-    height: 100%;
-    grid-area: itm09;
+    padding: 2rem 1rem 2rem;
   }
 }
