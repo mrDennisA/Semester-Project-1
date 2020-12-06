@@ -1,13 +1,14 @@
 .title-index {
+  padding: 0 0 1rem;
   align-items: center;
   flex-direction: column;
 }
 .title-index > h2 {
-  padding: 0 1rem 1rem;
+  padding: 0 1rem;
 }
 .title-index > p {
   max-width: 480px;
-  padding: 0 1rem;
+  padding: 1rem;
 }
 
 .index01 {

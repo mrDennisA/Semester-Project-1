@@ -1,5 +1,5 @@
-.grid-explore01 {
-  border-bottom: 1px var(--color04) solid;
+.grid-explore02 {
+  background-color: var(--color03);
 }
 .explore01 {
   flex-direction: column;
