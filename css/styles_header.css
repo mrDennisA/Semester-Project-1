@@ -42,14 +42,14 @@ header > div {
   background-color: var(--color07);
 }
 .bg-biology {
-  background-image: url(/images/biology-medicine.png);
+  background-image: url(/images/biology.png);
 }
 
 .color-robotics {
   background-color: var(--color08);
 }
 .bg-robotics {
-  background-image: url(/images/robotics-ai.png);
+  background-image: url(/images/robotics.png);
 }
 
 .color-ecology {

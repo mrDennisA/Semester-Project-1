@@ -1,0 +1,49 @@
+.ecology01 {
+  grid-area: itm01;
+}
+.ecology02 {
+  grid-area: itm02;
+  background-image: url("/images/ecology/pexels-markus-distelrath_01.jpg");
+}
+.ecology03 {
+  grid-area: itm03;
+}
+.ecology04 {
+  grid-area: itm04;
+  background-image: url("/images/ecology/pexels-pixabay_01.jpg");
+}
+.ecology05 {
+  grid-area: itm05;
+  background-image: url("/images/ecology/pexels-life-of-pix_01.jpg");
+}
+.ecology06 {
+  grid-area: itm06;
+  background-image: url("/images/ecology/wilmy-van-ulft_01.jpg");
+}
+.ecology07 {
+  grid-area: itm07;
+}
+.ecology08 {
+  grid-area: itm08;
+  background-image: url("/images/ecology/windrader_01.jpg");
+}
+.ecology09 {
+  grid-area: itm09;
+  height: 300px;
+  background-position: bottom;
+  background-image: url("/images/ecology/pikwizard_01.jpg");
+}
+
+@media only screen and (min-width: 1024px) {
+  .grid-ecology01 {
+    grid-template-areas:
+      "itm01 . . ."
+      "itm02 itm03 itm04 itm04"
+      "itm02 itm05 itm05 itm06"
+      "itm08 itm08 itm07 itm09";
+  }
+  .ecology02 {
+    grid-area: itm02;
+    height: 616px;
+  }
+}
