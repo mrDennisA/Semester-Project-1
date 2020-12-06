@@ -24,6 +24,8 @@
 }
 .cosmology07 {
   grid-area: itm07;
+  height: 100%;
+  justify-content: flex-end;
 }
 .cosmology08 {
   grid-area: itm08;

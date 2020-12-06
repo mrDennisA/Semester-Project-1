@@ -1,0 +1,51 @@
+.evolution01 {
+  grid-area: itm01;
+}
+.evolution02 {
+  grid-area: itm02;
+  background-image: url("/images/evolution/tanya-kukarkina_01.jpg");
+}
+.evolution03 {
+  grid-area: itm03;
+}
+.evolution04 {
+  grid-area: itm04;
+  background-image: url("/images/evolution/charles-robert-darwin_01.jpg");
+}
+.evolution05 {
+  grid-area: itm05;
+  height: 100%;
+  justify-content: flex-end;
+}
+.evolution06 {
+  grid-area: itm06;
+  background-image: url("/images/evolution/mammoth_01.jpg");
+}
+.evolution07 {
+  grid-area: itm07;
+  background-image: url("/images/evolution/homo-erectus_01.jpg");
+}
+.evolution08 {
+  grid-area: itm08;
+  background-image: url("/images/evolution/narciso-arellano_01.jpg");
+}
+.evolution09 {
+  grid-area: itm09;
+}
+.evolution10 {
+  grid-area: itm10;
+  background-image: url("/images/evolution/pexels-marcus_01.jpg");
+}
+
+@media only screen and (min-width: 1024px) {
+  .grid-evolution01 {
+    grid-template-areas:
+      "itm01 . . ."
+      "itm02 itm03 itm04 itm05"
+      "itm02 itm06 itm06 itm07"
+      "itm08 itm08 itm09 itm10";
+  }
+  .evolution02 {
+    height: 616px;
+  }
+}

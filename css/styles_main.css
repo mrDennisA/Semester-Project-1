@@ -4,6 +4,9 @@ main > div {
   margin: auto;
   max-width: 648px;
   padding: 4rem 0 4rem;
+
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .flex {
   padding: 1.5rem 0.5rem;
@@ -12,7 +15,7 @@ main > div {
 .flex div {
   margin: 0.5rem;
   flex: 1;
-  min-width: 210px;
+  min-width: 260px;
   flex-direction: column;
 }
 .img {
