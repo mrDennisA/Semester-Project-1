@@ -13,7 +13,7 @@ main > div {
   margin: 0.5rem;
   flex: 1;
   min-width: 210px;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 .img {
   background-repeat: no-repeat;
@@ -34,7 +34,6 @@ main > div {
     margin: unset;
     flex: unset;
     min-width: unset;
-    flex-wrap: unset;
   }
   div[class^="grid"] {
     display: grid;

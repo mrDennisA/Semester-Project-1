@@ -12,24 +12,38 @@
 }
 
 .index01 {
+  grid-area: itm01;
   background-image: url("/images/index/skeleton_01.jpg");
 }
+.index02 {
+  grid-area: itm02;
+}
 .index03 {
+  grid-area: itm03;
   max-height: 200px;
   background-image: url("/images/index/andrew-ruiz_01.jpg");
 }
 .index04 {
+  grid-area: itm04;
   max-height: 200px;
   background-image: url("/images/index/pikwizard_01.jpg");
 }
+.index05 {
+  grid-area: itm05;
+}
 .index06 {
+  grid-area: itm06;
   background-image: url("/images/index/insung-yoon_01.jpg");
 }
 .index07 {
+  grid-area: itm07;
   background-image: url("/images/index/pexels-scott_01.jpg");
 }
 .index08 {
-  flex-direction: column;
+  grid-area: itm08;
+}
+.index09 {
+  grid-area: itm09;
 }
 .index09 > a {
   color: var(--color10);
@@ -58,37 +72,16 @@
       "itm07 itm07 itm07 itm08"
       "itm07 itm07 itm07 itm09";
   }
-  .index01 {
-    grid-area: itm01;
-  }
-  .index02 {
-    grid-area: itm02;
-  }
-  .index03 {
-    max-height: 300px;
-    grid-area: itm03;
-  }
+  .index03,
   .index04 {
     max-height: 300px;
-    grid-area: itm04;
-  }
-  .index05 {
-    grid-area: itm05;
-  }
-  .index06 {
-    grid-area: itm06;
   }
   .index07 {
     max-height: 616px;
-    grid-area: itm07;
-  }
-  .index08 {
-    grid-area: itm08;
   }
   .index09 {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
     height: 100%;
-    grid-area: itm09;
   }
 }

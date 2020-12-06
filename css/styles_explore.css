@@ -2,37 +2,68 @@
   background-color: var(--color03);
 }
 .explore01 {
-  flex-direction: column;
+  grid-area: itm01;
 }
 .explore02 {
+  grid-area: itm02;
   background-image: url("/images/explore/michal-parzuchowski_01.jpg");
 }
 .explore03 {
+  grid-area: itm03;
   background-image: url("/images/explore/pikwizard_02.jpg");
 }
+.explore04 {
+  grid-area: itm04;
+}
 .explore05 {
+  grid-area: itm05;
   max-height: 200px;
   background-image: url("/images/explore/mammoth_01.jpg");
 }
 .explore06 {
+  grid-area: itm06;
   max-height: 200px;
   background-image: url("/images/explore/stem_01.jpg");
+}
+.explore07 {
+  grid-area: itm07;
+}
+.explore08 {
+  grid-area: itm08;
+}
+.explore09 {
+  grid-area: itm09;
 }
 div.explore09 {
   flex-basis: 100%;
 }
+.explore10 {
+  grid-area: itm10;
+}
 .explore11 {
+  grid-area: itm11;
   max-height: 200px;
   background-image: url("/images/explore/pexels-artem-podrez_01.jpg");
 }
 .explore12 {
+  grid-area: itm12;
   max-height: 200px;
   background-image: url("/images/explore/kids_microscope_01.jpg");
+}
+.explore13 {
+  grid-area: itm13;
+}
+.explore14 {
+  grid-area: itm14;
 }
 div.explore14 {
   flex-basis: 100%;
 }
+.explore15 {
+  grid-area: itm15;
+}
 .explore16 {
+  grid-area: itm16;
   max-height: 200px;
   background-image: url("/images/explore/science_01.jpg");
 }
@@ -55,57 +86,11 @@ div.explore14 {
       "itm14 . . ."
       "itm15 itm16 itm16 itm16";
   }
-  .explore01 {
-    grid-area: itm01;
-  }
-  .explore02 {
-    grid-area: itm02;
-  }
-  .explore03 {
-    grid-area: itm03;
-  }
-  .explore04 {
-    grid-area: itm04;
-  }
-  .explore05 {
-    max-height: 300px;
-    grid-area: itm05;
-  }
-  .explore06 {
-    max-height: 300px;
-    grid-area: itm06;
-  }
-  .explore07 {
-    flex-direction: column;
-    grid-area: itm07;
-  }
-  .explore08 {
-    grid-area: itm08;
-  }
-  .explore09 {
-    grid-area: itm09;
-  }
-  .explore10 {
-    grid-area: itm10;
-  }
-  .explore11 {
-    max-height: 300px;
-    grid-area: itm11;
-  }
-  .explore12 {
-    max-height: 300px;
-    grid-area: itm12;
-  }
-  .explore13 {
-    grid-area: itm13;
-  }
-  .explore14 {
-    grid-area: itm14;
-  }
-  .explore15 {
-    grid-area: itm15;
-  }
+  .explore05,
+  .explore06,
+  .explore11,
+  .explore12,
   .explore16 {
-    grid-area: itm16;
+    max-height: 300px;
   }
 }
