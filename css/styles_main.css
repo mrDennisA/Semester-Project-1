@@ -22,6 +22,7 @@ main > div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
   max-height: 42.5vmin;
   height: 200px;
   box-shadow: 0 2px 04px rgba(0, 0, 0, 0.25);
@@ -44,7 +45,6 @@ main > div {
   }
   div[class^="grid"] {
     display: grid;
-    align-items: flex-start;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     padding: 2rem 1rem;
