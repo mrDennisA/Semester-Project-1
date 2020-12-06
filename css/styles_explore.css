@@ -19,7 +19,7 @@
   background-image: url("/images/explore/stem_01.jpg");
 }
 div.explore09 {
-  min-width: 410px;
+  flex-basis: 100%;
 }
 .explore11 {
   max-height: 200px;
@@ -30,7 +30,7 @@ div.explore09 {
   background-image: url("/images/explore/kids_microscope_01.jpg");
 }
 div.explore14 {
-  min-width: 410px;
+  flex-basis: 100%;
 }
 .explore16 {
   max-height: 200px;
