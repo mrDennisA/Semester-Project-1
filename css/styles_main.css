@@ -19,8 +19,8 @@ main > div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 42.5vmin;
-  max-height: 300px;
+  max-height: 42.5vmin;
+  height: 200px;
   box-shadow: 0 2px 04px rgba(0, 0, 0, 0.25);
 }
 @media only screen and (min-width: 1024px) {
@@ -34,6 +34,10 @@ main > div {
     margin: unset;
     flex: unset;
     min-width: unset;
+  }
+  .img {
+    max-height: unset;
+    height: 300px;
   }
   div[class^="grid"] {
     display: grid;

@@ -1,9 +1,52 @@
+.cosmology01 {
+  grid-area: itm01;
+}
+.cosmology02 {
+  grid-area: itm02;
+  height: 300px;
+  background-image: url("/images/cosmology/david-billings_01.jpg");
+}
+.cosmology03 {
+  grid-area: itm03;
+  height: 300px;
+  background-image: url("/images/cosmology/PIA12108_01.jpg");
+}
+.cosmology04 {
+  grid-area: itm04;
+}
+.cosmology05 {
+  grid-area: itm05;
+  background-image: url("/images/cosmology/star-card_01.jpg");
+}
+.cosmology06 {
+  grid-area: itm06;
+  background-image: url("/images/cosmology/PIA18164_01.jpg");
+}
+.cosmology07 {
+  grid-area: itm07;
+}
+.cosmology08 {
+  grid-area: itm08;
+  background-image: url("/images/cosmology/Galileo-galilei-telescopi_01.jpg");
+}
+.cosmology09 {
+  grid-area: itm09;
+  background-image: url("/images/cosmology/vm-quezada_01.jpg");
+}
+.cosmology10 {
+  grid-area: itm10;
+  background-image: url("/images/cosmology/sts109_01.jpg");
+}
+
 @media only screen and (min-width: 1024px) {
   .grid-cosmology01 {
     grid-template-areas:
       "itm01 . . ."
-      "itm02 itm03 itm04 ."
-      "itm05 itm05 itm06 itm06"
-      ". itm07 . itm08";
+      "itm02 itm03 itm04 itm05"
+      "itm02 itm06 itm06 itm07"
+      "itm08 itm08 itm09 itm10";
+  }
+  .cosmology02 {
+    height: 616px;
   }
 }

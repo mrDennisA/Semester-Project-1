@@ -6,10 +6,12 @@
 }
 .explore02 {
   grid-area: itm02;
+  height: 300px;
   background-image: url("/images/explore/michal-parzuchowski_01.jpg");
 }
 .explore03 {
   grid-area: itm03;
+  height: 300px;
   background-image: url("/images/explore/pikwizard_02.jpg");
 }
 .explore04 {
@@ -17,12 +19,10 @@
 }
 .explore05 {
   grid-area: itm05;
-  max-height: 200px;
   background-image: url("/images/explore/mammoth_01.jpg");
 }
 .explore06 {
   grid-area: itm06;
-  max-height: 200px;
   background-image: url("/images/explore/stem_01.jpg");
 }
 .explore07 {
@@ -42,12 +42,12 @@ div.explore09 {
 }
 .explore11 {
   grid-area: itm11;
-  max-height: 200px;
+
   background-image: url("/images/explore/pexels-artem-podrez_01.jpg");
 }
 .explore12 {
   grid-area: itm12;
-  max-height: 200px;
+
   background-image: url("/images/explore/kids_microscope_01.jpg");
 }
 .explore13 {
@@ -64,7 +64,7 @@ div.explore14 {
 }
 .explore16 {
   grid-area: itm16;
-  max-height: 200px;
+
   background-image: url("/images/explore/science_01.jpg");
 }
 @media only screen and (min-width: 1024px) {
@@ -85,12 +85,5 @@ div.explore14 {
     grid-template-areas:
       "itm14 . . ."
       "itm15 itm16 itm16 itm16";
-  }
-  .explore05,
-  .explore06,
-  .explore11,
-  .explore12,
-  .explore16 {
-    max-height: 300px;
   }
 }

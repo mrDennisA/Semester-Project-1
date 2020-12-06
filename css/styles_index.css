@@ -13,6 +13,7 @@
 
 .index01 {
   grid-area: itm01;
+  height: 300px;
   background-image: url("/images/index/skeleton_01.jpg");
 }
 .index02 {
@@ -20,12 +21,10 @@
 }
 .index03 {
   grid-area: itm03;
-  max-height: 200px;
   background-image: url("/images/index/andrew-ruiz_01.jpg");
 }
 .index04 {
   grid-area: itm04;
-  max-height: 200px;
   background-image: url("/images/index/pikwizard_01.jpg");
 }
 .index05 {
@@ -33,10 +32,12 @@
 }
 .index06 {
   grid-area: itm06;
+  height: 300px;
   background-image: url("/images/index/insung-yoon_01.jpg");
 }
 .index07 {
   grid-area: itm07;
+  height: 300px;
   background-image: url("/images/index/pexels-scott_01.jpg");
 }
 .index08 {
@@ -44,6 +45,8 @@
 }
 .index09 {
   grid-area: itm09;
+  height: 100%;
+  justify-content: flex-end;
 }
 .index09 > a {
   color: var(--color10);
@@ -72,16 +75,7 @@
       "itm07 itm07 itm07 itm08"
       "itm07 itm07 itm07 itm09";
   }
-  .index03,
-  .index04 {
-    max-height: 300px;
-  }
   .index07 {
-    max-height: 616px;
-  }
-  .index09 {
-    display: flex;
-    justify-content: flex-end;
-    height: 100%;
+    height: 616px;
   }
 }
