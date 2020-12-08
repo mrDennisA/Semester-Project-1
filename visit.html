@@ -14,55 +14,54 @@
         <!-- HEADER -->
         <header class="color-visit">
             <div class="bg-visit">
-                <nav>
+                <div class="nav-bar">
                     <div class="nav-logo">
                         <a href="index.html">
                             <img src="/images/icons/Logo_01.svg">
-                            <ul>
-                                <h4><b>c</b>ommunity</h4>
-                                <h4><b>s</b>cience</h4>
-                                <h4><b>m</b>useum</h4>
-                            </ul>
+                            <h4>
+                                <span>community</span>
+                                <span>science</span>
+                                <span>museum</span>
+                            </h4>
                         </a>
                     </div>
                     <input type="checkbox" id="menu-checkbox">
                     <label for="menu-checkbox" class="menu-toggle" alt="Dropdown menu" title="Dropdown menu"></label>
-                    <ul class="menu-list font-h4">
+                    <nav class="font-link">
                         <a href="explore.html">explore</a>
                         <div class="submenu01">
-                            <label for="submenu01-checkbox" class="submenu-toggle">exebition +</label>
+                            <label for="submenu01-checkbox" class="submenu-toggle page-bar02">exebition<span>&nbsp;+</span></label>
                             <p class="submenu-hover">exebition</p>
                             <input type="checkbox" id="submenu01-checkbox">
-                            <ul class="submenu-list">
-                                <a href="cosmology.html">cosmology</a>
-                                <a href="evolution.html">evolution</a>
-                                <a href="biology.html">biology & medicine</a>
-                                <a href="robotics.html">robotics & ai</a>
-                                <a href="ecology.html">ecology</a>
+                            <ul class="submenu-list ">
+                                <li><a href="cosmology.html">cosmology</a></li>
+                                <li><a href="evolution.html">evolution</a></li>
+                                <li><a href="biology.html">biology & medicine</a></li>
+                                <li><a href="robotics.html">robotics & ai</a></li>
+                                <li><a href="ecology.html">ecology</a></li>
                             </ul>
                         </div>
                         <a href="events.html">events</a>
                         <div class="submenu02">
-                            <label for="submenu02-checkbox"" class="submenu-toggle">visit +</label>
-                            <a href="visit.html" class="submenu-hover">visit</a>
+                            <label for="submenu02-checkbox" class="submenu-toggle">visit<span class="page-on02">&nbsp;+</span></label>
+                            <a href="visit.html" class="submenu-hover page-bar01">visit</a>
                             <input type="checkbox" id="submenu02-checkbox">
                             <ul class="submenu-list">
-                                <a href="visit.html">visit</a>
-                                <a href="support.html">support</a>
+                                <li><a href="visit.html" class="page-on02">visit</a></li>
+                                <li><a href="support.html">support</a></li>
                             </ul>
                         </div>
-                        </ul>
-                    <div class="search ">
-                        <input type="text" placeholder="search.." class="font-h4">
+                    </nav>
+                    <div class="search">
+                        <input type="text" placeholder="search.." class="font-link">
                     </div>
-                </nav>
+                </div>
                 <div class="menu-title">
                     <h1>
-                        <p>Visit</p>
+                        <span>Explore the</span>
+                        <span>Museum</span>
                     </h1>
-                    <div class="nav-cta">
-                        <a href="visit.html"><h3>Plan your visit</h3></a>
-                    </div>
+                    <h3 class="nav-cta"><a href="visit.html">Plan your visit</a></h3>
                 </div>
             </div>
         </header>
@@ -75,10 +74,10 @@
         <!-- FOOTER -->
         <footer>
             <div>
-                <div class="footer-email font-h5">
-                    <div><input type="text" placeholder="Subscribe to our newsletter" class="font-h6"><p>Register</p></div>
+                <div class="footer-email font-small">
+                    <div><input type="text" placeholder="Subscribe to our newsletter" class="font-xsmall"><p>Register</p></div>
                 </div>
-                <div class="footer-info font-h6">
+                <div class="footer-info font-xsmall">
                     <div>
                         <ul class="footer-location">
                             <ul><li>LOCATION</li><li>Beyond Light Road.</li><li>Oslo, Norway 0250</li></ul>

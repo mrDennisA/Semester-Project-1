@@ -30,36 +30,41 @@ ul,
 a,
 h1,
 label,
-p {
+p,
+h4,
+h3 {
   display: flex;
+}
+
+span {
+  display:inline-block;
 }
 
 /* Typography */
 h1,
-.font-h1 {
+.font-title {
   font-weight: 700;
   font-size: 3rem;
   line-height: 3.5rem;
 }
 h2,
-.font-h2 {
+.font-large {
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
 }
 h3,
-.font-h3 {
+.font-medium {
   font-weight: 400;
   font-size: 1.875rem;
 }
-
 h4,
-.font-h4 {
+.font-link {
   font-weight: 400;
   font-size: 1.5rem;
 }
 h5,
-.font-h5 {
+.font-small {
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -67,7 +72,7 @@ h5,
   line-height: 1.625rem;*/
 }
 h6,
-.font-h6 {
+.font-xsmall {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
