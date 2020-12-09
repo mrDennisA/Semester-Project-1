@@ -35,7 +35,7 @@
   background-image: url("/images/biology/national-cancer-institute_02.jpg");
 }
 @media only screen and (min-width: 1024px) {
-  .grid-biology01 {
+  .grid-biology01 > div {
     grid-template-areas:
       "itm01 . . ."
       "itm02 itm02 itm03 itm04"

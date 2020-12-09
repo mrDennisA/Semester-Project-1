@@ -38,7 +38,7 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .grid-evolution01 {
+  .grid-evolution01 > div {
     grid-template-areas:
       "itm01 . . ."
       "itm02 itm03 itm04 itm05"

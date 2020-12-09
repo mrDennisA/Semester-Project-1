@@ -8,7 +8,32 @@ main > div {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+
+div[class^="grid"] {
+  flex: 1;
+  align-items: flex-start;
+}
+
 .flex {
+  flex: 1;
+  flex-wrap: wrap;
+  margin: 0 1rem;
+  padding: 1.5rem 0;
+}
+
+.flex > div,
+.flex > ul {
+  margin: 0.5rem 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+  min-width: 260px;
+  flex-basis: 100%;
+}
+.flex li {
+  display: flex;
+  justify-content: space-between;
+}
+/*.flex {
   padding: 1.5rem 0.5rem;
   flex-wrap: wrap;
 }
@@ -23,7 +48,7 @@ main > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
+}*/
 .img {
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,10 +74,10 @@ main > div {
     max-height: unset;
     height: 300px;
   }
-  div[class^="grid"] {
+  div[class^="grid"] > div {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
   }
 }

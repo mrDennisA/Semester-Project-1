@@ -3,25 +3,19 @@ main > div {
   flex-wrap: wrap;
 }
 
-.flex div {
-  flex-basis: 100%;
-}
-
-.wrapper-events01 {
-  align-items: flex-start;
-  flex: 1;
-}
+.wrapper-events01,
 .wrapper-events02 {
-  align-items: flex-start;
   flex: 1;
-  background-color: var(--color03);
+  flex-wrap: wrap;
 }
 .wrapper-events03 {
-  align-items: flex-start;
   flex: 2;
-  color: var(--color10);
-  background-color: var(--color02);
+  flex-wrap: wrap;
 }
+.flex {
+  border-top: 2px var(--color04) solid;
+}
+
 .events01 {
   grid-area: itm01;
 }
@@ -57,23 +51,23 @@ main > div {
 }
 
 @media only screen and (min-width: 1024px) {
-  div[class^="grid"] {
+  div[class^="grid"] > div {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .grid-events01 {
+  .grid-events01 > div {
     grid-template-areas:
       "itm01 itm01"
       "itm02 itm02"
       "itm03 itm03";
   }
-  .grid-events02 {
+  .grid-events02 > div {
     grid-template-areas:
       "itm04 itm04"
       "itm05 itm05"
       "itm06 itm06";
   }
-  .grid-events03 {
+  .grid-events03 > div {
     grid-template-areas:
       "itm07 itm07"
       "itm08 itm09"

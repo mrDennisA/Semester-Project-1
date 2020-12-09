@@ -3,26 +3,18 @@ main > div {
   flex-wrap: wrap;
 }
 
-.flex div {
-  flex-basis: 100%;
-}
-
-.wrapper-support01 {
-  align-items: flex-start;
-  flex: 1;
-}
-
+.wrapper-support01,
 .wrapper-support02 {
-  align-items: flex-start;
   flex: 1;
-  background-color: var(--color03);
+  flex-wrap: wrap;
 }
 
 .wrapper-support03 {
-  align-items: flex-start;
   flex: 2;
-  color: var(--color10);
-  background-color: var(--color02);
+  flex-wrap: wrap;
+}
+.flex {
+  border-top: 2px var(--color04) solid;
 }
 
 .support01 {
@@ -68,25 +60,25 @@ main > div {
 }
 
 @media only screen and (min-width: 1024px) {
-  div[class^="grid"] {
+  div[class^="grid"] > div {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .grid-support01 {
+  .grid-support01 > div {
     grid-template-areas:
       "itm01 itm01"
       "itm02 itm02"
       "itm03 itm03"
       "itm04 itm04";
   }
-  .grid-support02 {
+  .grid-support02 > div {
     grid-template-areas:
       "itm05 itm05"
       "itm06 itm06"
       "itm07 itm07"
       "itm08 itm08";
   }
-  .grid-support03 {
+  .grid-support03 > div {
     grid-template-areas:
       "itm09 itm09"
       "itm10 itm11"

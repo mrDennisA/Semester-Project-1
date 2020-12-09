@@ -68,20 +68,20 @@ div.explore14 {
   background-image: url("/images/explore/science_01.jpg");
 }
 @media only screen and (min-width: 1024px) {
-  .grid-explore01 {
+  .grid-explore01 > div {
     grid-template-areas:
       "itm01 . . ."
       "itm02 itm03 itm04 ."
       "itm05 itm05 itm06 itm06"
       ". itm07 . itm08";
   }
-  .grid-explore02 {
+  .grid-explore02 > div {
     grid-template-areas:
       "itm09 . . ."
       "itm10 itm11 itm11 itm11"
       "itm12 itm12 itm12 itm13";
   }
-  .grid-explore03 {
+  .grid-explore03 > div {
     grid-template-areas:
       "itm14 . . ."
       "itm15 itm16 itm16 itm16";

@@ -35,7 +35,7 @@
   background-image: url("/images/robotics/marilia-castelli_01.jpg");
 }
 @media only screen and (min-width: 1024px) {
-  .grid-robotics01 {
+  .grid-robotics01 > div {
     grid-template-areas:
       "itm01 . . ."
       "itm02 itm03 itm04 itm04"

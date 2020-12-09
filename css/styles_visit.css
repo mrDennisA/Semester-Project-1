@@ -3,34 +3,13 @@ main > div {
   flex-wrap: wrap;
 }
 
-.spacing-visit01 {
-  flex-wrap: wrap;
-  padding: 0 0 2rem;
-  /*border-bottom: 1px var(--color04) solid;*/
-}
-.spacing-visit02 {
-  flex-wrap: wrap;
-  padding: 2rem 0 0;
-  /*border-top: 1px var(--color04) solid;*/
-}
-
 .wrapper-visit01,
-.wrapper-visit02,
-.wrapper-visit03,
-.wrapper-visit04,
-.wrapper-visit05,
-.wrapper-visit06 {
-  flex: 1;
-  align-items: flex-start;
+.wrapper-visit02 {
+  flex-wrap: wrap;
 }
 
 .flex {
-  flex: 1;
-}
-
-.flex div,
-.flex ul {
-  flex-basis: 100%;
+  border-top: 2px var(--color04) solid;
 }
 
 .visit01 {
@@ -90,39 +69,39 @@ main > div {
 }
 
 @media only screen and (min-width: 1024px) {
-  div[class^="grid"] {
+  div[class^="grid"] > div {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .grid-visit01 {
+  .grid-visit01 > div {
     grid-template-areas:
       "itm01 itm01"
       "itm02 itm02";
   }
-  .grid-visit02 {
+  .grid-visit02 > div {
     grid-template-areas:
       "itm03 itm03"
       "itm04 itm04"
       "itm05 itm05";
   }
-  .grid-visit03 {
+  .grid-visit03 > div {
     grid-template-areas:
       "itm06 itm06"
       "itm07 itm07"
       "itm08 itm08";
   }
-  .grid-visit04 {
+  .grid-visit04 > div {
     grid-template-areas:
       "itm09 itm09"
       "itm10 itm10";
   }
-  .grid-visit05 {
+  .grid-visit05 > div {
     grid-template-areas:
       "itm11 itm11"
       "itm12 itm12"
       "itm13 itm13";
   }
-  .grid-visit06 {
+  .grid-visit06 > div {
     grid-template-areas:
       "itm14 itm14"
       "itm15 itm15"
