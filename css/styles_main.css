@@ -12,17 +12,22 @@ main > div {
   padding: 1.5rem 0.5rem;
   flex-wrap: wrap;
 }
-.flex div {
+.flex div,
+.flex ul {
   margin: 0.5rem;
   flex: 1;
   min-width: 260px;
   flex-direction: column;
 }
+.flex li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
   max-height: 42.5vmin;
   height: 200px;
   box-shadow: 0 2px 04px rgba(0, 0, 0, 0.25);
@@ -34,7 +39,8 @@ main > div {
   .flex {
     flex-wrap: unset;
   }
-  .flex div {
+  .flex div,
+  .flex ul {
     margin: unset;
     flex: unset;
     min-width: unset;

@@ -1,59 +1,92 @@
 main > div {
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
-.flex div {
+.spacing-visit01 {
+  flex-wrap: wrap;
+  padding: 0 0 2rem;
+  /*border-bottom: 1px var(--color04) solid;*/
+}
+.spacing-visit02 {
+  flex-wrap: wrap;
+  padding: 2rem 0 0;
+  /*border-top: 1px var(--color04) solid;*/
+}
+
+.wrapper-visit01,
+.wrapper-visit02,
+.wrapper-visit03,
+.wrapper-visit04,
+.wrapper-visit05,
+.wrapper-visit06 {
+  flex: 1;
+  align-items: flex-start;
+}
+
+.flex {
+  flex: 1;
+}
+
+.flex div,
+.flex ul {
   flex-basis: 100%;
 }
 
-.wrapper-events01 {
-  align-items: flex-start;
-  flex: 1;
-}
-.wrapper-events02 {
-  align-items: flex-start;
-  flex: 1;
-  background-color: var(--color03);
-}
-.wrapper-events03 {
-  align-items: flex-start;
-  flex: 2;
-  color: var(--color10);
-  background-color: var(--color02);
-}
-.events01 {
+.visit01 {
   grid-area: itm01;
 }
-.events02 {
+.visit02 {
   grid-area: itm02;
-  height: 300px;
-  background-image: url("/images/events/50477890088_01.jpg");
 }
-.events03 {
+.visit03 {
   grid-area: itm03;
 }
-.events04 {
+.visit04 {
   grid-area: itm04;
 }
-.events05 {
+.visit05 {
   grid-area: itm05;
-}
-.events06 {
-  grid-area: itm06;
   height: 300px;
-  background-image: url("/images/events/maud_01.jpg");
+  background-image: url("/images/visit/map.jpg");
 }
-.events07 {
+.visit06 {
+  grid-area: itm06;
+}
+.visit07 {
   grid-area: itm07;
+  font-weight: 700;
 }
-.events08 {
+.visit08 {
   grid-area: itm08;
 }
-.events09 {
+.visit09 {
   grid-area: itm09;
+}
+.visit10 {
+  grid-area: itm10;
+}
+.visit11 {
+  grid-area: itm11;
+}
+.visit12 {
+  grid-area: itm12;
   height: 300px;
-  background-image: url("/images/events/nazrin-b-va_01.jpg");
+  background-image: url("/images/visit/pexels-anna_01.jpg");
+}
+.visit13 {
+  grid-area: itm13;
+}
+.visit14 {
+  grid-area: itm14;
+}
+.visit15 {
+  grid-area: itm15;
+  height: 300px;
+  background-image: url("/images/visit/jerry-wang_01.jpg");
+}
+.visit16 {
+  grid-area: itm16;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -61,25 +94,38 @@ main > div {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .grid-events01 {
+  .grid-visit01 {
     grid-template-areas:
       "itm01 itm01"
-      "itm02 itm02"
-      "itm03 itm03";
+      "itm02 itm02";
   }
-  .grid-events02 {
+  .grid-visit02 {
     grid-template-areas:
+      "itm03 itm03"
       "itm04 itm04"
-      "itm05 itm05"
-      "itm06 itm06";
+      "itm05 itm05";
   }
-  .grid-events03 {
+  .grid-visit03 {
     grid-template-areas:
+      "itm06 itm06"
       "itm07 itm07"
-      "itm08 itm09"
-      "itm08 itm09";
+      "itm08 itm08";
   }
-  .events09 {
-    height: 616px;
+  .grid-visit04 {
+    grid-template-areas:
+      "itm09 itm09"
+      "itm10 itm10";
+  }
+  .grid-visit05 {
+    grid-template-areas:
+      "itm11 itm11"
+      "itm12 itm12"
+      "itm13 itm13";
+  }
+  .grid-visit06 {
+    grid-template-areas:
+      "itm14 itm14"
+      "itm15 itm15"
+      "itm16 itm16";
   }
 }

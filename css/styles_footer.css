@@ -82,12 +82,13 @@ footer a:hover {
   border-top: 1px rgba(230, 167, 80, 0.5) solid;
 }
 
-.footer-time div,
+.footer-time ul > ul,
 .footer-social ul > ul {
   flex-direction: column;
 }
 
-.footer-time ul {
+.footer-time ul ul > ul {
+  flex-direction: row;
   justify-content: space-between;
 }
 
