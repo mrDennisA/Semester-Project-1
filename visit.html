@@ -4,12 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Dennis Alekseev">
-        <meta name="descriotion" content="">
+        <meta name="descriotion" content="Plan your visit with information on Museum hours, ticket prices, and directions.">
         <link rel="stylesheet" href="./css/styles_global.css">
         <link rel="stylesheet" href="./css/styles_header.css">
         <link rel="stylesheet" href="./css/styles_footer.css">
         <link rel="stylesheet" href="./css/styles_main.css">
         <link rel="stylesheet" href="./css/styles_visit.css">
+
+        <title>Visit - Community Science Museum</title>
     </head>
     <body>
 
@@ -18,8 +20,8 @@
             <div class="bg-visit">
                 <div class="nav-bar">
                     <div class="nav-logo">
-                        <a href="index.html">
-                            <img src="/images/icons/Logo_01.svg">
+                        <a href="index.html" title="Community Science Museum">
+                            <img src="/images/icons/Logo_01.svg" alt="Community Science Museum Logo">
                             <h4>
                                 <span>community</span>
                                 <span>science</span>
@@ -30,39 +32,39 @@
                     <input type="checkbox" id="menu-checkbox">
                     <label for="menu-checkbox" class="menu-toggle" alt="Dropdown menu" title="Dropdown menu"></label>
                     <nav class="font-link">
-                        <a href="explore.html">explore</a>
+                        <a href="explore.html" title="Explore">explore</a>
                         <div class="submenu01">
-                            <label for="submenu01-checkbox" class="submenu-toggle page-bar02">exebition<span>&nbsp;+</span></label>
-                            <p class="submenu-hover">exebition</p>
+                            <label for="submenu01-checkbox" class="submenu-toggle page-bar02" title="Exebition">exebition<span>&nbsp;+</span></label>
+                            <p class="submenu-hover" title="Exebition">exebition</p>
                             <input type="checkbox" id="submenu01-checkbox">
                             <ul class="submenu-list ">
-                                <li><a href="cosmology.html">cosmology</a></li>
-                                <li><a href="evolution.html">evolution</a></li>
-                                <li><a href="biology.html">biology & medicine</a></li>
-                                <li><a href="robotics.html">robotics & ai</a></li>
-                                <li><a href="ecology.html">ecology</a></li>
+                                <li><a href="cosmology.html" title="Cosmology">cosmology</a></li>
+                                <li><a href="evolution.html" title="Evolution">evolution</a></li>
+                                <li><a href="biology.html" title="Biology & Medicine">biology & medicine</a></li>
+                                <li><a href="robotics.html" title="Robotics & AI">robotics & ai</a></li>
+                                <li><a href="ecology.html" title="Ecology">ecology</a></li>
                             </ul>
                         </div>
-                        <a href="events.html">events</a>
+                        <a href="events.html" title="Events">events</a>
                         <div class="submenu02">
-                            <label for="submenu02-checkbox" class="submenu-toggle">visit<span class="page-on02">&nbsp;+</span></label>
-                            <a href="visit.html" class="submenu-hover page-bar01">visit</a>
+                            <label for="submenu02-checkbox" class="submenu-toggle" title="Visit">visit<span class="page-on02">&nbsp;+</span></label>
+                            <a href="visit.html" class="submenu-hover page-bar01" title="Visit">visit</a>
                             <input type="checkbox" id="submenu02-checkbox">
                             <ul class="submenu-list">
-                                <li><a href="visit.html" class="page-on02">visit</a></li>
-                                <li><a href="support.html">support</a></li>
+                                <li><a href="visit.html" class="page-on02" title="Visit">visit</a></li>
+                                <li><a href="support.html" title="Support">support</a></li>
                             </ul>
                         </div>
                     </nav>
                     <div class="search">
-                        <input type="text" placeholder="search.." class="font-link">
+                        <input type="text" placeholder="search.." class="font-link" title="Search">
                     </div>
                 </div>
                 <div class="menu-title">
                     <h1>
                         <span>Visit</span>
                     </h1>
-                    <h3 class="nav-cta"><a href="visit.html">Plan your visit</a></h3>
+                    <h3 class="nav-cta"><a href="visit.html" title="Plan your Visit">Plan your visit</a></h3>
                 </div>
             </div>
         </header>
@@ -92,7 +94,7 @@
                                 <li>Beyond Light Road.</li>
                                 <li>Oslo, Norway 0250</li>
                             </ul>
-                            <div class="visit05 img"></div>
+                            <div class="visit05 img" alt="Map"></div>
                         </div>
                     </div>
                     <div class="grid-visit03">
@@ -116,14 +118,14 @@
                     <div class="grid-visit05">
                         <div class="flex">
                             <div class="visit11"><h2>Food and drink</h2></div>
-                            <div class="visit12 img"></div>
+                            <div class="visit12 img" alt="Inside cafeteria"></div>
                             <div class="visit13">There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</div>
                         </div>
                     </div>
                     <div class="grid-visit06">
                         <div class="flex">
                             <div class="visit14"><h2>Shop</h2></div>
-                            <div class="visit15 img"></div>
+                            <div class="visit15 img" alt="Inside Shop"></div>
                             <div class="visit16">Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</div>
                         </div>
                     </div>
@@ -135,22 +137,26 @@
         <footer>
             <div>
                 <div class="footer-email font-small">
-                    <div><input type="text" placeholder="Subscribe to our newsletter" class="font-xsmall"><p>Register</p></div>
+                    <div><input type="text" placeholder="Subscribe to our newsletter" class="font-xsmall" title="Subscribe to our newsletter"><p title="Register">Register</p></div>
                 </div>
                 <div class="footer-info font-xsmall">
                     <div>
                         <div class="footer-location">
-                            <ul><li>LOCATION</li><li>Beyond Light Road.</li><li>Oslo, Norway 0250</li></ul>
+                            <ul>
+                                <li>LOCATION</li>
+                                <li>Beyond Light Road.</li>
+                                <li>Oslo, Norway 0250</li>
+                            </ul>
                         </div>
                         <div class="footer-time">
                             <ul>
                                 <li>OPENING TIMES</li>
                                 <ul>
-                                    <ul><li>Monday:</li><li>Closed</li></ul>
-                                    <ul><li>Tuesday to Thursday:</li><li>10.00 - 16.00</li></ul>
-                                    <ul><li>Friday:</li><li>10.00 - 19.00</li></ul>
-                                    <ul><li>Saturday:</li><li>09.00 - 16.00</li></ul>
-                                    <ul><li>Sunday:</li><li>09.00 - 13.00</li></ul>
+                                    <li><p>Monday:</p><p>Closed</p></li>
+                                    <li><p>Tuesday to Thursday:</p><p>10.00 - 16.00</p></li>
+                                    <li><p>Friday:</p><p>10.00 - 19.00</p></li>
+                                    <li><p>Saturday:</p><p>09.00 - 16.00</p></li>
+                                    <li><p>Sunday:</p><p>09.00 - 13.00</p></li>
                                 </ul>
                             </ul>
                         </div>
@@ -159,20 +165,32 @@
                         <div class="footer-links">
                             <ul>
                                 <li>QUICK LINKS</li>
-                                <li><a href="support.html">Support</a></li>
-                                <li><a href="support.html">Internships</a></li>
-                                <li><a href="support.html">Volunteer</a></li>
+                                <li><a href="support.html" title="Support">Support</a></li>
+                                <li><a href="support.html" title="Internships">Internships</a></li>
+                                <li><a href="support.html" title="Volunteer">Volunteer</a></li>
                             </ul>
                         </div>
                         <div class="footer-social">
                             <ul>
                                 <li>KEEP IN TOUCH</li>
                                 <ul>
-                                    <li><a href="#">Facebook</a><a href="#">Instagram</a></li>
-                                    <li><a href="#">Twitter</a><a href="#">YouTube</a></li>
+                                    <li><a href="#" title="Facebook">Facebook</a><a href="#" title="Instragram">Instagram</a></li>
+                                    <li><a href="#" title="Twitter">Twitter</a><a href="#" title="YouTube">YouTube</a></li>
                                 </ul>
                             </ul>
                         </div>
+                    </div>
+                </div>
+                <div class="footer-info font-xsmall">
+                    <div class="footer-policy">
+                        <ul>
+                            <li class="footer-copyright">© 2020 Dennis Alekseev</li>
+                            <ul class="footer-policy-list">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </ul>
                     </div>
                 </div>
             </div>

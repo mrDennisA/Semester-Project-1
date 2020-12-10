@@ -87,9 +87,32 @@ footer a:hover {
   flex-direction: column;
 }
 
-.footer-time ul ul > ul {
+.footer-time li,
+.footer-social li {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.footer-policy {
+  padding: 0 0.5rem;
+}
+.footer-policy > ul {
+  width: 584px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem 1rem 2rem;
+  /*border-top: 1px rgba(230, 167, 80, 0.5) solid;*/
+}
+
+.footer-policy li {
+  padding: 1rem 0.5rem 0;
+}
+
+.footer-policy-list {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
 }
 
 @media only screen and (max-width: 1023.9px) {
@@ -115,10 +138,28 @@ footer a:hover {
     max-width: 400px;
   }
 
+  .footer-policy > ul {
+    width: unset;
+  }
+
+  .footer-policy li {
+    padding: 1rem 0 0;
+  }
+
+  .footer-copyright {
+    order: 2;
+  }
+
+  .footer-policy-list {
+    flex-basis: 100%;
+    justify-content: space-between;
+  }
+
   .footer-location,
   .footer-time,
   .footer-links,
-  .footer-social {
+  .footer-social,
+  .footer-policy {
     box-sizing: border-box;
     width: 100%;
     padding: 0 1rem;
