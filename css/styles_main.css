@@ -33,30 +33,13 @@ div[class^="grid"] {
   display: flex;
   justify-content: space-between;
 }
-/*.flex {
-  padding: 1.5rem 0.5rem;
-  flex-wrap: wrap;
-}
-.flex div,
-.flex ul {
-  margin: 0.5rem;
-  flex: 1;
-  min-width: 260px;
-  flex-direction: column;
-}
-.flex li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}*/
-.img {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+main img {
+  object-fit: cover;
   max-height: 42.5vmin;
   height: 200px;
   box-shadow: 0 2px 04px rgba(0, 0, 0, 0.25);
 }
+
 @media only screen and (min-width: 1024px) {
   main > div {
     max-width: 1280px;
@@ -70,7 +53,8 @@ div[class^="grid"] {
     flex: unset;
     min-width: unset;
   }
-  .img {
+  main img {
+    width: 100%;
     max-height: unset;
     height: 300px;
   }

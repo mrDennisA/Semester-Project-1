@@ -13,32 +13,33 @@
 
 .index01 {
   grid-area: itm01;
+}
+.index01 img {
   height: 300px;
-  background-image: url("/images/index/skeleton_01.jpg");
 }
 .index02 {
   grid-area: itm02;
 }
 .index03 {
   grid-area: itm03;
-  background-image: url("/images/index/andrew-ruiz_01.jpg");
 }
 .index04 {
   grid-area: itm04;
-  background-image: url("/images/index/pikwizard_01.jpg");
 }
 .index05 {
   grid-area: itm05;
 }
 .index06 {
   grid-area: itm06;
+}
+.index06 > img {
   height: 300px;
-  background-image: url("/images/index/insung-yoon_01.jpg");
 }
 .index07 {
   grid-area: itm07;
-  height: 616px;
-  background-image: url("/images/index/pexels-scott_01.jpg");
+}
+.index07 > img {
+  height: 300px;
 }
 .index08 {
   grid-area: itm08;
@@ -75,7 +76,7 @@
       "itm07 itm07 itm07 itm08"
       "itm07 itm07 itm07 itm09";
   }
-  .index07 {
+  .index07 > img {
     height: 616px;
   }
 }

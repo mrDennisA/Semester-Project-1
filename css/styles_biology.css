@@ -3,37 +3,38 @@
 }
 .biology02 {
   grid-area: itm02;
-  background-image: url("/images/biology/national-cancer-institute_01.jpg");
 }
 .biology03 {
   grid-area: itm03;
 }
 .biology04 {
   grid-area: itm04;
-  background-image: url("/images/biology/ibrahim-boran_01.jpg");
+}
+.biology04 > img {
+  height: 300px;
 }
 .biology05 {
   grid-area: itm05;
-  background-image: url("/images/biology/michael-schiffer_01.jpg");
+}
+.biology05 > img {
+  height: 300px;
 }
 .biology06 {
   grid-area: itm06;
 }
 .biology07 {
   grid-area: itm07;
-  background-image: url("/images/biology/Untitled-1-47.jpg");
 }
 .biology08 {
   grid-area: itm08;
-  background-image: url("/images/biology/wolfgang-hasselmann_01.jpg");
 }
 .biology09 {
   grid-area: itm09;
 }
 .biology10 {
   grid-area: itm10;
-  background-image: url("/images/biology/national-cancer-institute_02.jpg");
 }
+
 @media only screen and (min-width: 1024px) {
   .grid-biology01 > div {
     grid-template-areas:

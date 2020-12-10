@@ -6,24 +6,24 @@
 }
 .explore02 {
   grid-area: itm02;
+}
+.explore02 > img {
   height: 300px;
-  background-image: url("/images/explore/michal-parzuchowski_01.jpg");
 }
 .explore03 {
   grid-area: itm03;
+}
+.explore03 > img {
   height: 300px;
-  background-image: url("/images/explore/pikwizard_02.jpg");
 }
 .explore04 {
   grid-area: itm04;
 }
 .explore05 {
   grid-area: itm05;
-  background-image: url("/images/explore/mammoth_01.jpg");
 }
 .explore06 {
   grid-area: itm06;
-  background-image: url("/images/explore/stem_01.jpg");
 }
 .explore07 {
   grid-area: itm07;
@@ -42,13 +42,9 @@ div.explore09 {
 }
 .explore11 {
   grid-area: itm11;
-
-  background-image: url("/images/explore/pexels-artem-podrez_01.jpg");
 }
 .explore12 {
   grid-area: itm12;
-
-  background-image: url("/images/explore/kids_microscope_01.jpg");
 }
 .explore13 {
   grid-area: itm13;
@@ -64,8 +60,6 @@ div.explore14 {
 }
 .explore16 {
   grid-area: itm16;
-
-  background-image: url("/images/explore/science_01.jpg");
 }
 @media only screen and (min-width: 1024px) {
   .grid-explore01 > div {

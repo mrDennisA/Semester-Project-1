@@ -3,36 +3,30 @@
 }
 .robotics02 {
   grid-area: itm02;
-  background-image: url("/images/robotics/possessed-photography_01.jpg");
 }
 .robotics03 {
   grid-area: itm03;
 }
 .robotics04 {
   grid-area: itm04;
-  background-image: url("/images/robotics/pexels-thisisengineering_02.jpg");
 }
 .robotics05 {
   grid-area: itm05;
-  background-image: url("/images/robotics/pexels-thisisengineering_01.jpg");
 }
 .robotics06 {
   grid-area: itm06;
-  background-image: url("/images/robotics/owen-beard_01.jpg");
 }
 .robotics07 {
   grid-area: itm07;
 }
 .robotics08 {
   grid-area: itm08;
-
-  background-position: left 0 top 25%;
-  background-image: url("/images/robotics/valentin-petkov_01.jpg");
+}
+.robotics08 > img {
+  object-position: 50% 25%;
 }
 .robotics09 {
   grid-area: itm09;
-
-  background-image: url("/images/robotics/marilia-castelli_01.jpg");
 }
 @media only screen and (min-width: 1024px) {
   .grid-robotics01 > div {
@@ -42,8 +36,8 @@
       "itm05 itm05 itm06 itm08"
       "itm09 itm09 itm07 itm08";
   }
-  .robotics08 {
+  .robotics08 > img {
+    object-position: unset;
     height: 616px;
-    background-position: center;
   }
 }

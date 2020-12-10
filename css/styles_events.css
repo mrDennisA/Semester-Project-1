@@ -21,8 +21,9 @@ main > div {
 }
 .events02 {
   grid-area: itm02;
+}
+.events02 > img {
   height: 300px;
-  background-image: url("/images/events/50477890088_01.jpg");
 }
 .events03 {
   grid-area: itm03;
@@ -35,8 +36,9 @@ main > div {
 }
 .events06 {
   grid-area: itm06;
+}
+.events06 > img {
   height: 300px;
-  background-image: url("/images/events/maud_01.jpg");
 }
 .events07 {
   grid-area: itm07;
@@ -46,8 +48,10 @@ main > div {
 }
 .events09 {
   grid-area: itm09;
+}
+.events09 > img {
+  object-position: 50% 75%;
   height: 300px;
-  background-image: url("/images/events/nazrin-b-va_01.jpg");
 }
 
 @media only screen and (min-width: 1024px) {
@@ -73,7 +77,8 @@ main > div {
       "itm08 itm09"
       "itm08 itm09";
   }
-  .events09 {
+  .events09 > img {
+    object-position: unset;
     height: 616px;
   }
 }

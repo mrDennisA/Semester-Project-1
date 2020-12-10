@@ -26,8 +26,9 @@ main > div {
 }
 .visit05 {
   grid-area: itm05;
+}
+.visit05 > img {
   height: 300px;
-  background-image: url("/images/visit/map.jpg");
 }
 .visit06 {
   grid-area: itm06;
@@ -50,8 +51,9 @@ main > div {
 }
 .visit12 {
   grid-area: itm12;
+}
+.visit12 > img {
   height: 300px;
-  background-image: url("/images/visit/pexels-anna_01.jpg");
 }
 .visit13 {
   grid-area: itm13;
@@ -61,8 +63,9 @@ main > div {
 }
 .visit15 {
   grid-area: itm15;
+}
+.visit15 > img {
   height: 300px;
-  background-image: url("/images/visit/jerry-wang_01.jpg");
 }
 .visit16 {
   grid-area: itm16;
