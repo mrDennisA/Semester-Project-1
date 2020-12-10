@@ -69,7 +69,6 @@ h5,
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.75rem;
-
 }
 h6,
 .font-xsmall {
@@ -79,7 +78,7 @@ h6,
 }
 
 /* Border helpers */
-/*nav,
+nav,
 div,
 span,
 ul,

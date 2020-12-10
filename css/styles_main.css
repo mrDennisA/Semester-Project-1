@@ -8,6 +8,13 @@ main > div {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+main img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 42.5vmin;
+  height: 200px;
+  box-shadow: 0 2px 04px rgba(0, 0, 0, 0.25);
+}
 
 div[class^="grid"] {
   flex: 1;
@@ -33,16 +40,21 @@ div[class^="grid"] {
   display: flex;
   justify-content: space-between;
 }
-main img {
-  object-fit: cover;
-  max-height: 42.5vmin;
-  height: 200px;
-  box-shadow: 0 2px 04px rgba(0, 0, 0, 0.25);
-}
 
 @media only screen and (min-width: 1024px) {
   main > div {
     max-width: 1280px;
+  }
+
+  main img {
+    max-height: unset;
+    height: 300px;
+  }
+  div[class^="grid"] > div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    padding: 2rem 0;
   }
   .flex {
     flex-wrap: unset;
@@ -52,16 +64,5 @@ main img {
     margin: unset;
     flex: unset;
     min-width: unset;
-  }
-  main img {
-    width: 100%;
-    max-height: unset;
-    height: 300px;
-  }
-  div[class^="grid"] > div {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1rem;
-    padding: 2rem 0;
   }
 }
