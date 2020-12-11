@@ -187,7 +187,7 @@ h1 {
   text-shadow: unset;
   color: var(--color01);
   background-color: var(--color10);
-  box-shadow: 0 -2px 0 var(--color04) inset;
+  box-shadow: 0 0 0 2px var(--color04) inset;
 }
 
 @media only screen and (max-width: 1023.9px) {
