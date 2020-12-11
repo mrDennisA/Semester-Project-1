@@ -56,16 +56,17 @@
   width: 100%;
   height: 64px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--color11);
+  background-color: rgb(153, 31, 31);
+  box-shadow: 0 0px 40px 16px var(--color11) inset;
   cursor: pointer;
   user-select: none;
 }
 .index09 > a:hover {
-  transition: 0.5s;
+  transition: 0.3s;
   color: var(--color11);
   text-shadow: unset;
-  background-color: rgba(204, 82, 82, 0.1);
-  box-shadow: 0 0 0 1px var(--color11) inset;
+  background-color: var(--color10);
+  box-shadow: 0 0 0 2px var(--color11) inset;
 }
 
 @media only screen and (min-width: 1024px) {

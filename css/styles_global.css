@@ -55,9 +55,10 @@ h2,
 }
 h3,
 .font-medium {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.75rem;
   line-height: 2.25rem;
+
 }
 h4,
 .font-link {

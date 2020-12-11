@@ -177,15 +177,16 @@ h1 {
   justify-content: center;
   align-items: center;
   color: var(--color10);
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--color04);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgb(153, 92, 8);
+  box-shadow: -0 0 32px 24px var(--color04) inset;
 }
 
 .nav-cta > a:hover {
-  transition: 0.5s;
-  color: var(--color04);
+  transition: 0.3s;
   text-shadow: unset;
-  background-color: rgba(252, 246, 237, 1);
+  color: var(--color01);
+  background-color: var(--color10);
   box-shadow: 0 -2px 0 var(--color04) inset;
 }
 
@@ -290,6 +291,8 @@ h1 {
   }
 
   nav > a {
+    justify-content: center;
+
     align-items: center;
     padding: 0 1rem;
     color: var(--color10);
