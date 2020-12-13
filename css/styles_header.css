@@ -14,70 +14,70 @@ header > div {
   background-color: var(--color01);
 }
 .bg-index {
-  background-image: url(/images/index.png);
+  background-image: url(../images/index.png);
 }
 
 .color-explore {
   background-color: var(--color01);
 }
 .bg-explore {
-  background-image: url(/images/explore.png);
+  background-image: url(../images/explore.png);
 }
 
 .color-cosmology {
   background-color: var(--color05);
 }
 .bg-cosmology {
-  background-image: url(/images/cosmology.png);
+  background-image: url(../images/cosmology.png);
 }
 
 .color-evolution {
   background-color: var(--color06);
 }
 .bg-evolution {
-  background-image: url(/images/evolution.png);
+  background-image: url(../images/evolution.png);
 }
 
 .color-biology {
   background-color: var(--color07);
 }
 .bg-biology {
-  background-image: url(/images/biology.png);
+  background-image: url(../images/biology.png);
 }
 
 .color-robotics {
   background-color: var(--color08);
 }
 .bg-robotics {
-  background-image: url(/images/robotics.png);
+  background-image: url(../images/robotics.png);
 }
 
 .color-ecology {
   background-color: var(--color09);
 }
 .bg-ecology {
-  background-image: url(/images/ecology.png);
+  background-image: url(../images/ecology.png);
 }
 
 .color-events {
   background-color: var(--color01);
 }
 .bg-events {
-  background-image: url(/images/events.png);
+  background-image: url(../images/events.png);
 }
 
 .color-visit {
   background-color: var(--color01);
 }
 .bg-visit {
-  background-image: url(/images/visit.png);
+  background-image: url(../images/visit.png);
 }
 
 .color-support {
   background-color: var(--color01);
 }
 .bg-support {
-  background-image: url(/images/support.png);
+  background-image: url(../images/support.png);
 }
 
 .nav-bar {
@@ -135,13 +135,14 @@ nav > a:hover,
   border: 0;
   padding: 0 1rem;
   background-repeat: no-repeat;
-  background-image: url(/images/icons/search.svg);
+  background-image: url(../images/icons/search.svg);
   background-size: 1.75rem;
 }
 
 .search > input:focus {
   outline-color: var(--color02);
   outline-style: solid;
+  outline-width: 1px;
 }
 
 .page-bar01,
@@ -213,14 +214,14 @@ h1 {
     cursor: pointer;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(/images/icons/bar.svg);
+    background-image: url(../images/icons/bar.svg);
     background-size: 2rem;
   }
 
   #menu-checkbox:checked ~ .menu-toggle {
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(/images/icons/close.svg);
+    background-image: url(../images/icons/close.svg);
     background-size: 2rem;
   }
 
